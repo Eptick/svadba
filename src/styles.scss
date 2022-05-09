@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, :host {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+h1, h2 {
+  text-transform: uppercase;
+}
+ol, ul {
+  list-style: none;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.full {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+h3, li {
+  text-align: left;
+}
+.links li{
+  margin: 8px 0;
+}
