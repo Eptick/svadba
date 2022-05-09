@@ -32,7 +32,7 @@ jobs:
         strip_components: 2
         rm: true
         source: "dist/svadba"
-        target: "/var/www/shtela.com/"
+        target: "/var/www/svadba.redzic.hr"
     - name: slack-send
       uses: slackapi/slack-github-action@v1.18.0
       with:
